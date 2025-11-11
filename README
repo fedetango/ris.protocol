@@ -1,0 +1,17 @@
+# Repository Implement Service.
+
+RIS, Repository Implementation Service, is a development model consisting of three main components:
+
+- Repositories: as the source of all truth and version and state controllers.
+
+- Implementers: Functions that take a repository as input and deploy it to a runtime environment.
+
+- Services: the runtime environments where the code is deployed.
+
+Both implementers and services have standardized interfaces and structures that facilitate connection and maintenance.
+
+Launching a website, API, or architecture is as easy as "plugging in" a repository with the implementer that runs it.
+
+Interoperability is maximized here; repository services, implementers, and services can be interchanged. Furthermore, different branches of a repository can be migrated to different implementations!
+
+In this way, the source code, its execution, and testing remain clean and abstracted.
